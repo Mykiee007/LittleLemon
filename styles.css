@@ -1,0 +1,67 @@
+body {
+    background-color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 2rem;
+    margin-bottom: 40rem;
+    margin-right: 1rem;
+    margin-left:1rem;
+}
+
+h2 {
+  font-size: 2em;  
+}
+
+h3 {
+    font-size: 1rem;
+}
+
+p {
+    font-size: 0.5rem;
+}
+a {
+    font-size: 0.5rem;
+}
+
+header>img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 4rem;
+}
+
+nav ul{
+    list-style: none;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+}
+
+section {
+    display: flex;
+    gap: 1rem;
+}
+
+article {
+    flex: 1;
+    
+}
+
+footer {
+    display:flex;
+    justify-content: center;
+    gap: 2rem
+}
+
+footer div {
+    
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+ 
+
+footer img {
+    height: 2rem;
+}
